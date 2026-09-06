@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Three Circles is a gentle place to explore what you love, what you are good at, and what matters."
+    />
+    <title>Three Circles</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="page-shell">
+      <section class="landing" id="landing" aria-labelledby="page-title">
+        <p class="eyebrow">THREE CIRCLES</p>
+        <h1 id="page-title">A little space to find your way.</h1>
+
+        <div class="circles" role="img" aria-label="Three overlapping circles: What you love, What you're good at, and What matters.">
+          <div class="circle circle-love"><span aria-hidden="true">❤️</span><strong>What you<br />love</strong></div>
+          <div class="circle circle-good"><span aria-hidden="true">⭐</span><strong>What you're<br />good at</strong></div>
+          <div class="circle circle-matters"><span aria-hidden="true">🌍</span><strong>What<br />matters</strong></div>
+        </div>
+
+        <p class="promise">Don't just find your answer. Try your way toward it.</p>
+        <button class="start-button" id="start-button" type="button">Start exploring <span aria-hidden="true">→</span></button>
+      </section>
+
+      <section class="question-panel" id="question-panel" aria-labelledby="question-title" hidden>
+        <p class="eyebrow">FIRST CIRCLE · WHAT YOU LOVE</p>
+        <h1 id="question-title" tabindex="-1">What do you love doing, even when nobody asks you to do it?</h1>
+        <p>There’s no right answer. Start wherever feels true.</p>
+        <button class="back-button" id="back-button" type="button">← Back</button>
+      </section>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
